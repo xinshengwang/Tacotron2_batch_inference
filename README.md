@@ -2,7 +2,7 @@
 This code is forked from [https://github.com/NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2). Here, I made slight changes to make it can be used to perform batch inference directly.
 
 ## step1:
-Download [pre-trained model](https://drive.google.com/open?id=1U5t-Yfdr_L0O6LJKhOJmhqVfaY-QrmoU) and unzip it  in the root directory, as 
+Download [pre-trained model](https://drive.google.com/open?id=1U5t-Yfdr_L0O6LJKhOJmhqVfaY-QrmoU) and unzip it  in the root directory, as
 ├── models
 │   ├── tacotron2_statedict.pt
 │   ├── waveglow_256channels.pt
