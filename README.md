@@ -4,6 +4,9 @@ This code is forked from [https://github.com/NVIDIA/tacotron2](https://github.co
 ## step1:
 Download [pre-trained model](https://drive.google.com/open?id=1U5t-Yfdr_L0O6LJKhOJmhqVfaY-QrmoU) and unzip it  in the root directory.
 
+## step2:
+Replace the text input "data/input/Demo.pickle" with your own data
+
 ## step3:
 python inference.py
 
@@ -18,18 +21,11 @@ v1.6 models to achieve state of the art accuracy, and is tested and maintained b
 ## Table of Contents
 - [Tacotron 2 and WaveGlow for Pytorh](#tacotron-2-and-waveglow-for-pytorh)
   - [step1:](#step1)
-<<<<<<< HEAD
-=======
   - [step2:](#step2)
->>>>>>> cd5a1892554c01adebf32abfbd0813dc623a0de2
-  - [step3:](#step3)
-- [Tacotron 2 and WaveGlow for Pytorh](#tacotron-2-and-waveglow-for-pytorh)
-  - [step1:](#step1)
   - [step3:](#step3)
 - [The original document](#the-original-document)
 - [Tacotron 2 And WaveGlow v1.7 For PyTorch](#tacotron-2-and-waveglow-v17-for-pytorch)
   - [Table of Contents](#table-of-contents)
-- [<<<<<<< HEAD](#-head)
   - [Model overview](#model-overview)
     - [Model architecture](#model-architecture)
     - [Default configuration](#default-configuration)
@@ -722,4 +718,5 @@ September 2019
 ### Known issues
 
 There are no known issues in this release.
+
 
