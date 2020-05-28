@@ -2,7 +2,16 @@
 This code is forked from [https://github.com/NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2). Here, I made slight changes to make it can be used to perform batch inference directly.
 
 ## step1:
+<<<<<<< HEAD
 Download [pre-trained model](https://drive.google.com/open?id=1U5t-Yfdr_L0O6LJKhOJmhqVfaY-QrmoU) and unzip it  in the root directory.
+=======
+Download [pre-trained model](https://drive.google.com/open?id=1U5t-Yfdr_L0O6LJKhOJmhqVfaY-QrmoU) and unzip it  in the root directory, as
+├── models
+│   ├── tacotron2_statedict.pt
+│   ├── waveglow_256channels.pt
+## step2:
+Replace the text input in "data/input/Demo.pickle" with your own text.
+>>>>>>> cd5a1892554c01adebf32abfbd0813dc623a0de2
 
 ## step3:
 python inference.py
@@ -18,6 +27,10 @@ v1.6 models to achieve state of the art accuracy, and is tested and maintained b
 ## Table of Contents
 - [Tacotron 2 and WaveGlow for Pytorh](#tacotron-2-and-waveglow-for-pytorh)
   - [step1:](#step1)
+<<<<<<< HEAD
+=======
+  - [step2:](#step2)
+>>>>>>> cd5a1892554c01adebf32abfbd0813dc623a0de2
   - [step3:](#step3)
 - [The original document](#the-original-document)
 - [Tacotron 2 And WaveGlow v1.7 For PyTorch](#tacotron-2-and-waveglow-v17-for-pytorch)
